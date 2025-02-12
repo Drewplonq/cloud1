@@ -1,10 +1,11 @@
 variable "cloud_id" {
   type        = string
-  default = "b1gmpma17e5otjoaje18"
+  description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
+
 variable "folder_id" {
   type        = string
-  default = "b1g5trmhbou9o4oc9pps"
+  description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 variable "default_zone" {
   type        = string
